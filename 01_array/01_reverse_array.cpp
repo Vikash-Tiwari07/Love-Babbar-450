@@ -22,7 +22,7 @@ void rvereseArray(int arr[], int start, int end)
 
 // ----------------------------------------------------------------------------------------------------------------------- //
 // TC: O(N)
-void rvereseArray(int arr[], int start, int end)
+void reverseArray(int arr[], int start, int end)
 {
     if (start >= end)
         return;
