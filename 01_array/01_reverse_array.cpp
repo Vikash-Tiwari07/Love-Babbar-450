@@ -7,7 +7,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------------- //
 // TC: O(N)
-void rvereseArray(int arr[], int start, int end)
+void reverseArray(int arr[], int start, int end)
 {
     while (start < end)
     {
@@ -22,7 +22,7 @@ void rvereseArray(int arr[], int start, int end)
 
 // ----------------------------------------------------------------------------------------------------------------------- //
 // TC: O(N)
-void rvereseArray(int arr[], int start, int end)
+void reverseArray(int arr[], int start, int end)
 {
     if (start >= end)
         return;
@@ -32,5 +32,5 @@ void rvereseArray(int arr[], int start, int end)
     arr[end] = temp;
 
     // Recursive Function calling
-    rvereseArray(arr, start + 1, end - 1);
+    reverseArray(arr, start + 1, end - 1);
 }
